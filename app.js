@@ -60,7 +60,7 @@ $("#add").click(function()
 
 function myFunction() {
      var res1="<tr><td><input type='text' name='' require value=''placeholder='ادخل اسم الحدث'></td>"
-     var res2 ="<td> <input type='Number' name='' value='' require class='input' placeholder='ادخل الفترة بالساعات'></td>"
+     var res2 ="<td> <input type='Number' name='' value='' required class='input' placeholder='ادخل الفترة بالساعات'></td>"
      var res3="<td class='res' > </td>"
      var resfinal=res1+res2+res3;
     $('#tab tr:last').after(resfinal);
