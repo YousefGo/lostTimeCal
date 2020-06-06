@@ -12,6 +12,7 @@ $("#cal").click(function () {
   for( var ss= 0 ; ss<h;ss++)   
   {
   var temp1 =$(".res:eq("+ss+")");
+ 
   listReslut[ss]=(year*listTime[ss]*365)/24;
 
   }
@@ -59,7 +60,7 @@ $("#add").click(function()
 
 
 function myFunction() {
-     var res1="<tr><td><input type='text' name='' require value=''placeholder='ادخل اسم الحدث'></td>"
+     var res1="<tr><td><input type='text' name='' required value=''placeholder='ادخل اسم الحدث'></td>"
      var res2 ="<td> <input type='Number' name='' value='' required class='input' placeholder='ادخل الفترة بالساعات'></td>"
      var res3="<td class='res' > </td>"
      var resfinal=res1+res2+res3;
